@@ -1,0 +1,276 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url(../fonts/opensans-condensed-regular.woff);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url(../fonts/OpenSans_Condensed-Medium.ttf);
+    font-weight: 400;
+}
+
+body {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.container {
+    width: 1240px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.hero {
+    background: url(../images/BG.jpg) center / cover; 
+    height: 760px;
+}
+
+.btn {
+    border-radius: 49.5px;
+    background: #FFC80A;
+    width: 172px;
+    height: 48px;
+    flex-shrink: 0;
+}
+
+.header {
+    padding: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+.nav {
+    margin: 0 0 0 auto;
+}
+
+.nav-link {
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.4px;
+}
+
+.hero-info {
+    display: flex;
+    width: 575.5px;
+    height: 318px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.hero-pre-title {
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.8px
+}
+
+.hero-title {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 106px; /* 117.778% */
+}
+
+.text1 {
+    color: #212121;
+    text-align: center;
+    font-family: Arvo;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; /* 133.333% */
+}
+
+.text2 {
+    color: #212121;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.4px;
+}
+
+.ground {
+    width: 1280px;
+    height: 1194px;
+    background: #FFF;
+}
+
+.popular {
+    margin: 70px 0 100px;
+}
+
+.popular-title {
+    color: #212121;
+    text-align: center;
+    font-family: Arvo;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; /* 133.333% */
+}
+
+.number {
+    color: #212121;
+    font-family: Arvo;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 145.455% */
+}
+
+.protons {
+    width: 502px;
+    height: 338px;
+    flex-shrink: 0;
+}
+
+.sport {
+    color: #212121;
+    font-family: Arvo;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 145.455% */
+    border-radius: 8px;
+    background: #F7F8F9;
+}
+
+.stadium {
+    width: 360px;
+    height: 241px;
+    flex-shrink: 0;
+}
+
+.number2 {
+    color: #FFF;
+    font-family: Arvo;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 145.455% */
+}
+
+.protons2 {
+    width: 360px;
+    height: 241px;
+    flex-shrink: 0;
+}
+
+.footer {
+    flex-shrink: 0;
+    background: #2C2C2C;
+}
+
+.container2 {
+    width: 1280px;
+    height: 2px;
+    flex-shrink: 0;
+}
+
+.footer_block_nav {
+    background: #2C2C2C;
+    width: 1280px;
+    height: 2px;
+    flex-shrink: 0;
+    stroke-width: 1px;
+    stroke: #FFF;
+    opacity: 0.1;
+}
+
+.footer__social {
+    width: 248px;
+    height: 64px;
+    flex-shrink: 0;
+}
+
+.footer-end {
+    color: rgba(200, 200, 200, 0.50);
+    font-family: Open Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 183.333% */
+}
+
+.logo2 {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.logo3 {
+    color: #FFC80A;
+    font-family: Playfair Display;
+    font-size: 29px;
+    font-style: italic;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.footer_bottom_nav-link {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.4px;
+}
+
+.footer_block-title {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.4px;
+}
+
+.footer_block_nav-link {
+    color: #9FA3A7;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+}
+
+.footer_block_nav-link2 {
+    color: #9FA3A7;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+}
